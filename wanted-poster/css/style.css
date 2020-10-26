@@ -34,7 +34,7 @@ body {
 }
 main {
     background-color:#ddd;
-    background-image:url(images/wrinkled-white-paper-background.jpg);
+    background-image:url(../images/wrinkled-white-paper-background.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     border:1px solid #333;
@@ -93,7 +93,7 @@ h3{
     font-size:2rem;
     margin: 0;
     letter-spacing: .5rem;
-    color:darkred;
+    color:black;
     text-shadow:.09375rem .09375rem .09375rem #000;
     font-family:'Alfa Slab One', Garamond, serif;
     text-align:center;
@@ -103,13 +103,12 @@ h3{
 h4{ 
     text-transform: uppercase;
     font-size:1.5rem;
-    margin: .25rem;
     padding-bottom: 1.125rem;
-    letter-spacing: .25;
+    letter-spacing: .25rem;
     color:darkred;
     text-shadow:.09375rem .09375rem .09375rem #000;
     font-family:'Alfa Slab One', Garamond, serif;
-    text-align:center;
+    text-align: center;
     font-weight: normal}
 
 h5 {
@@ -137,11 +136,13 @@ section {
 p{
     margin-top: 1rem;
     margin-bottom: 1rem;
-    padding-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0rem;
     padding-bottom: 0rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    width= 90%
+    width: 90%;
     text-align: left
 }
 
@@ -149,11 +150,11 @@ p{
 /* Image & Figure */
 
 img{
-    width=100%;
-    margin-top: 0;
-    margin-bottom: 0;
+    width:100%;
+    margin-top: 0rem;
+    margin-right: auto;
+    margin-bottom: 0rem;
     margin-left: auto;
-    margin-right:auto;
     max-width: 50rem;
 }
 
@@ -163,14 +164,24 @@ figure {
 
 figcaption {
     padding-top:.5rem;
-    text-align: right
+    text-align: right;
 }
 
 
 /* Footer */
 
 footer{
-    margin: 1rem;
-    width= 2rem;
-    border-top-style: solid 2rem color=#333
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    border-top: 2rem solid #333;
+    
+}
+
+h4 > span{
+    padding-top: 0rem;
+    padding-right: .5rem;
+    padding-bottom: 0rem;
+    padding-left: .5rem;
 }
