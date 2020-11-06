@@ -80,14 +80,14 @@ header, footer {
 /* Imported Typfaces */
 @font-face {
     font-family: "Montserrat";
-        src: url:("../fonts/montserrat-regular.ttf") ;
+        src: url(../fonts/montserrat-regular.ttf) ;
     font-weight:normal;
     font-style:normal;
 }
 @font-face {
     
-       font-family: "jose finslab regular";
-        src: url:("../fonts/josefinslab-regular.ttf");
+       font-family: "josefinslabregular";
+        src: url(../fonts/josefinslab-regular.ttf);
     font-weight:normal;
     font-style:normal;
 }
@@ -103,7 +103,7 @@ html {
 }
 
 h1{
-    font-family: "jose finslab regular", sans-serif;
+    font-family: "josefinslabregular", sans-serif;
     font-size: 3.75rem;
     letter-spacing: .125rem;
     margin: 1.125rem;
