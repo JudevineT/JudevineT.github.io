@@ -112,7 +112,7 @@ h1{
 
 h2 {
     
-    font-family: josefinslab, arial, sans-serif;
+    font-family: "josefinslabregular", sans-serif;
     letter-spacing: .125rem;
     font-size: 1.5rem;
 }
@@ -206,6 +206,7 @@ nav a {
     text-align: center;
     font-size:  1.125rem;
     border: solid .03125rem #33658A;
+    margin-bottom: 1.5rem;
     
     
         
