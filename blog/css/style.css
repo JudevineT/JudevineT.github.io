@@ -50,11 +50,11 @@
 
 @font-face {
     font-family: openSans;
-    src: url(/fonts/sans-serif/opensans-regular.ttf);
+    src: url(../fonts/sans-serif/opensans-regular.ttf);
   }
   @font-face {
     font-family: joseFinLab;
-    src: url(/fonts/serif/josefinslab-regular.ttf);
+    src: url(../fonts/serif/josefinslab-regular.ttf);
   }
 
 body {
@@ -144,6 +144,8 @@ nav a:nth-child(2) {
 section.subsection {
     margin-top: 30px;
 }
+
+footer {margin-top: 50px;}
 footer p:nth-child(1) {
     float: left;
 }
